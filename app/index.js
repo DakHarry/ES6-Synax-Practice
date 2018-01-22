@@ -1,5 +1,10 @@
-import {students} from './students';
+import {students, total} from './students';
+// import {add,multiply} from './caculator';
+import add from './caculator';
+import Hobbit from './hobbit';
 console.log(students);
+console.log(total);
+console.log(add(3,5));
 // run();
 // constTest();
 // templateLiteralTest();
@@ -151,3 +156,11 @@ function filterTest(){
   console.log(passingByArrow);
 }
 // keywords: find() forEach() reduce() some() keys() values()
+
+
+// let Harry = new Entity("Harry", 175);
+// Harry.greet();
+
+let Harry = new Hobbit("Harry", 172);
+console.log(Harry);
+Harry.greet();
